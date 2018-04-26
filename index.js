@@ -8,9 +8,9 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 
 function nowServing(){
   if(katzDeliLine.length == 0){
-  return `Currently serving ${katzDeliLine.shift()}`;
+    return 'There is nobody waiting tobe served!'
   }
   else{
-    return 'There is nobody waiting tobe served!'
+    return `Currently serving ${katzDeliLine.shift()}`
   }
 }
