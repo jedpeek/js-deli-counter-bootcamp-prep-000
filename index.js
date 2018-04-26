@@ -14,3 +14,16 @@ function nowServing(){
     return `Currently serving ${katzDeliLine.shift()}`
   }
 }
+
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length > 0){
+    
+  }
+  else{
+    return 
+  }
+}
+
+
+
+
