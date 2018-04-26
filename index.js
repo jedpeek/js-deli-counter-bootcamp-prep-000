@@ -7,5 +7,5 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
 function nowServing(){
-  return katzDeliLine.pop();
+  return katzDeliLine.shift();
 }
