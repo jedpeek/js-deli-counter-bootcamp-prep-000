@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
     
   }
   else{
-    return 
+    return "The line is currently empty."
   }
 }
 
