@@ -8,7 +8,7 @@ return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 
 function nowServing(){
   if(katzDeliLine.length > 0){
-  return katzDeliLine.shift();
+  return `Currently serving ${katzDeliLine.shift()}`;
   }
   else{
     return 'There is nobody waiting tobe served!'
